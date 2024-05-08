@@ -11,6 +11,7 @@
 
 ## First Attempt Solution
 ### Database Models
+<details>
 <summary> #### Cities </summary>
 ```
   class Cities {
@@ -38,3 +39,4 @@
     }
   }
 ```
+</details>
