@@ -24,4 +24,71 @@
   }
 ```
 
+<summary> Cinemas </summary>
+
+```
+  class Cinemas {
+    private string name;
+    private int city_id;
+    Cities(string name, int city_id) {
+      this.name = name;
+      this.city_id = city_id;
+    }
+  }
+```
+<summary> Audis </summary>
+
+```
+  class Audis {
+    private string name;
+    private int cinema_id;
+    Audis(string name, int cinema_id) {
+      this.name = name;
+      this.cinema_id = cinema_id;
+    }
+  }
+```
+
+
+<summary> Movies </summary>
+
+```
+  class Movies {
+    private string name;
+    private string genre;
+    private string languages;
+    private date release_date;
+    Movies(string name, string genre, string languages, Date release_date) {
+      this.name = name;
+      this.genre  = genre;
+      this.languages = languages;
+      this.release_date = release_date;
+    }
+  }
+
+<summary> Shows </summary>
+
+```
+  class Shows {
+    private int audi_id;
+    private int movie_id;
+    Shows(int audi_id, int movie_id) {
+      this.audi_id = audi_id;
+      this.movie_id  = movie_id;
+    }
+  }
+```
+
+<summary> Seats </summary>
+
+```
+  class Shows {
+    private int seat_number;
+    private bool is_filled;
+    Shows(int seat_number, bool is_filled) {
+      this.seat_number = seat_number;
+      this.is_filled  = is_filled;
+    }
+  }
+```
 </details>
