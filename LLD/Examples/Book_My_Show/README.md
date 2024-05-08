@@ -10,11 +10,31 @@
 7. After selecting seats, user should be able to book tickets and do payment.
 
 ## First Attempt Solution
+### Database Models
+<summary> #### Cities </summary>
 ```
   class Cities {
     private string name;
-    Cities(name) {
+    Cities(string name) {
       this.name = name;
+    }
+  }
+
+  class Cinemas {
+    private string name;
+    private int city_id;
+    Cities(string name, int city_id) {
+      this.name = name;
+      this.city_id = city_id;
+    }
+  }
+
+  class Audis {
+    private string name;
+    private int cinema_id;
+    Audis(string name, int cinema_id) {
+      this.name = name;
+      this.cinema_id = cinema_id;
     }
   }
 ```
