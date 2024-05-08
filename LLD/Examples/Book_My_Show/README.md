@@ -10,8 +10,10 @@
 7. After selecting seats, user should be able to book tickets and do payment.
 
 ## First Attempt Solution
-### Database Models
+
 <details>
+  
+<summary> Database Models </summary>
   
 <summary> Cities </summary>
 
