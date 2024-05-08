@@ -12,7 +12,9 @@
 ## First Attempt Solution
 ### Database Models
 <details>
+  
 <summary> Cities </summary>
+
 ```
   class Cities {
     private string name;
@@ -21,4 +23,5 @@
     }
   }
 ```
+
 </details>
